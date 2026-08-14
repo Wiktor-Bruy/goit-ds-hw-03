@@ -133,7 +133,6 @@ def main():
     has_next_page = True
     print("Початок парсингу сторінок...")
     parse_quotes()
-    return
     print("Парсинг сторінок закінчено. Починаємо запис даних до зовнішньої бази...")
     is_mongo_url = load_url()
     if is_mongo_url:
